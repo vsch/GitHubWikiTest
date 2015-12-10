@@ -1,13 +1,10 @@
 # GitHubWikiTest
 ad-hoc link tests in wiki 
 
-###!"#$%&'()*+,-./ 0123456789 :;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-###!"#$%&'()*+,-./ 0123456789 :;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-###!"#$%&'()*+,-./ 0123456789 :;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-###!"#$%&'()*+,-./ 0123456789 :;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-###!"#$%&'()*+,-./ 0123456789 :;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-###!"#$%&'()*+,-./ 0123456789 :;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-###!"#$%&'()*+,-./ 0123456789 :;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-###!"#$%&'()*+,-./ 0123456789 :;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-###!"#$%&'()*+,-./ 0123456789 :;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-###!"#$%&'()*+,-./ 0123456789 :;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+###!"#$%&'()*+,-./ 0123456789 :;<=>?@AB[\]^_`ab{|}~
+###!"#$%&'()*+,-./ 0123456789 :;<=>?@AB[\]^_`ab{|}~
+###!"#$%&'()*+,-./ 0123456789 :;<=>?@AB[\]^_`ab{|}~
+###!"#$%&'()*+,-./ 0123456789 :;<=>?@AB[\]^_`ab{|}~
+###!"#$%&'()*+,-./ 0123456789 :;<=>?@AB[\]^_`ab{|}~1
+###!"#$%&'()*+,-./ 0123456789 :;<=>?@AB[\]^_`ab{|}~2
+###!"#$%&'()*+,-./ 0123456789 :;<=>?@AB[\]^_`ab{|}~3
