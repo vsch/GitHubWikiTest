@@ -1,3 +1,3 @@
 # Test2
 
-[test](/blob/master/test.md)
+[test](/Test.md)
