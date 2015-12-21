@@ -1,5 +1,6 @@
 # Test2
 
-[test](/Test.md)
+[/Test.md](/Test.md)
+[/blob/master/Test.md](/Test.md)
 
 [Test](/graphs)
