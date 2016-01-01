@@ -15,9 +15,9 @@ ad-hoc link tests in wiki
 
 [ref text][ref]
 
-![ref][text]
+![text][ref]
 
-[text][ref]
+[ref][ref]
 
 [ref]
 [ref]
