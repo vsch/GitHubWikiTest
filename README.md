@@ -14,11 +14,11 @@ ad-hoc link tests in wiki
 [/test.md](/Test.md)
 
 [ref text][ref]
+
 ![ref][text]
 
 [text][ref]
 
-[ref]
 [ref]
 [ref]
 
