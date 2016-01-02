@@ -15,6 +15,6 @@ ad-hoc link tests in wiki
 
 [TestLink]
 
-[test link]: Test.md
+[ test link ]: Test.md
 
 [testlink]: Test2.md
