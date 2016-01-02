@@ -13,7 +13,7 @@ ad-hoc link tests in wiki
 
 [Test
 
-        link]
+link]
 
 [TestLink]
 
