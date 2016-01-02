@@ -11,19 +11,10 @@ ad-hoc link tests in wiki
 ###!"#$%&'()*+,-./ 0123456789 :;<=>?@AB[\]^_`ab{|}~-2
 ###!"#$%&'()*+,-./ 0123456789 :;<=>?@AB[\]^_`ab{|}~-3
 
-[/test.md](/Test.md)
+[test link]
 
-[ref text][ref]
+[testlink]
 
-![text][ref]
+[test link]: Test.md
 
-[text2][ref]
-
-[ref]
-
-[ref]
-
-[ref] [ref]
-
-[ref]: /Test.md
-
+[testlink]: Test2.md
