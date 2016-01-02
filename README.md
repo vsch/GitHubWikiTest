@@ -11,8 +11,9 @@ ad-hoc link tests in wiki
 ###!"#$%&'()*+,-./ 0123456789 :;<=>?@AB[\]^_`ab{|}~-2
 ###!"#$%&'()*+,-./ 0123456789 :;<=>?@AB[\]^_`ab{|}~-3
 
-[Test 
-link]
+[Test
+
+        link]
 
 [TestLink]
 
