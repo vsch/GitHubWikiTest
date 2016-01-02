@@ -23,5 +23,7 @@ ad-hoc link tests in wiki
 
 [ref]
 
+[ref] [ref]
+
 [ref]: /Test.md
 
