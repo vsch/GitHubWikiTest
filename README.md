@@ -18,3 +18,7 @@ ad-hoc link tests in wiki
 [ test link ]: Test.md
 
 [testlink]: Test2.md
+
+this is a sentence
+- list item 1
+- list item 2
