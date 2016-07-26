@@ -22,3 +22,11 @@ ad-hoc link tests in wiki
 this is a sentence
 - list item 1
 - list item 2
+
+---
+### Mixed Item Lists
+
+1. ordered
+- asdfasdf
+- bua
+1. ordered
