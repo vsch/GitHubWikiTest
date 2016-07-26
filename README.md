@@ -26,7 +26,26 @@ this is a sentence
 ---
 ### Mixed Item Lists
 
+    1. ordered
+    - asdfasdf
+    - bua
+    1. ordered
+
+
 1. ordered
 - asdfasdf
 - bua
 1. ordered
+
+---
+    - asdfasdf
+    1. ordered
+    - bua
+    1. ordered
+
+
+- asdfasdf
+1. ordered
+- bua
+1. ordered
+
