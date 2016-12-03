@@ -1,21 +1,23 @@
 ## Lists
 
 -   test
-    - asdfasfdasdf
+   - sub item
 
-           dasdfd
-          
-            dasdfd
+        sub item child para
+
+         indented code
 
 
 ---
 
 1.  test
-    1. asdfasfdasdf
+   1. sub item
 
-           dasdfd
+         sub item child para
 
-            dasdfd
+          indented code
+
+
 
 ## more lists
 
