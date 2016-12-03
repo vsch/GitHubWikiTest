@@ -1,21 +1,22 @@
 ## Lists
 
 -   test
-   - sub item
-
-        sub item child para
-
-         indented code
-
-
----
-
-1.  test
-   1. sub item
-
+    - sub item
+ 
          sub item child para
-
+ 
           indented code
+ 
+ 
+---
+ 
+1.  test
+    1. sub item
+  
+          sub item child para
+  
+           indented code
+ 
 
 
 
