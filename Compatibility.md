@@ -1,97 +1,80 @@
-## List Item Interrupts Paragraph
+## List Items Interrupt Paragraphs
 
-Paragraph
-- list
+Bullet item can interrupt paragraph
+* item
 
-Paragraph
-1. list
+Empty bullet item can interrupt paragraph
+* 
 
+Numbered one item can interrupt paragraph
+1. one item
 
-## Lists
+Empty Numbered one item can interrupt paragraph
+1. 
 
--   test
-    - sub item
- 
-           sub item child para
- 
-            indented code
- 
- 
----
- 
-1.  test
-    1. sub item
-  
-           sub item child para
-  
-            indented code
- 
----
-* item 1
- * item 2
-  * item 3
-   * item 4
-    * item 5
-     * item 6
-      * item 7
-       * item 8
-        * item 9
-         * item 10
-          * item 11
-           * item 12
-            * item 13
-            
----
+Numbered non-one item can interrupt paragraph
+2. non-one item
 
+Empty Numbered non-one item can interrupt paragraph
+2. 
 
-## more lists
+## List Items Interrupt Bullet Item Paragraphs
 
-* item 1
- * item 2
-  * item 3
-   * item 4
-    * item 5
-     * item 6
-      * item 7
-       * item 8
-        * item 9
+* Bullet item can interrupt paragraph of a bullet list item
+* item
 
-## more lists
+<!--List Break-->
 
-* item 1
+* Empty bullet item can interrupt paragraph of a bullet list item
+* 
 
-  # Heading 1
+<!--List Break-->
 
-   ## Heading 2
+* Numbered one item can interrupt paragraph of a bullet list item
+1. one item
 
-    ### Heading 3
+<!--List Break-->
 
-     #### Heading 4
+* Empty Numbered one item can interrupt paragraph of a bullet list item
+1. 
 
-      ##### Heading 5
+<!--List Break-->
 
-       ###### Heading 6
+* Numbered non-one item can interrupt paragraph of a bullet list item
+2. non-one item
 
-  * item 2
+<!--List Break-->
 
-    ## Heading 2
-  
-     ### Heading 3
-  
-      #### Heading 3
+* Empty Numbered non-one item can interrupt paragraph of a bullet list item
+2. 
 
-       ##### Heading 5
-    
-        ###### Heading 6
+## List Items Interrupt Numbered Item Paragraphs
 
-## more lists
+1. Bullet item can interrupt paragraph of a numbered list item
+* item
 
-* item 1
- * item 2
-  * item 3
-   * item 4
-    *  item 5
-     *  item 6
-      *  item 7
-       *  item 8
-        *  item 9
+<!--List Break-->
+
+1. Empty bullet item can interrupt paragraph of a numbered list item
+* 
+
+<!--List Break-->
+
+1. Numbered one item can interrupt paragraph of a numbered list item
+1. one item
+
+<!--List Break-->
+
+1. Empty Numbered one item can interrupt paragraph of a numbered list item 
+1.
+
+<!--List Break-->
+
+1. Numbered non-one item can interrupt paragraph of a numbered list item
+2. non-one item
+
+<!--List Break-->
+
+1. Empty Numbered non-one item can interrupt paragraph of a numbered list item
+2. 
+
