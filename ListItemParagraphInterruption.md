@@ -78,3 +78,8 @@ Empty Numbered non-one item can interrupt paragraph
 1. Empty Numbered non-one item can interrupt paragraph of a numbered list item
 2. 
 
+## Bullet Mismatch Starts a New List
+
+- item
++ item
+* item
