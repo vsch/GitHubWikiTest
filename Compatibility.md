@@ -1,7 +1,10 @@
-## Bullet List Interrupts Paragraph
+## List Item Interrupts Paragraph
 
-Paragrap
+Paragraph
 - list
+
+Paragraph
+1. list
 
 
 ## Lists
