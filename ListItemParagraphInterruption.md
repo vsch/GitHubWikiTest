@@ -23,6 +23,7 @@
 - item 1
 - item 2 
 - item 3 
+- item 4 
 
 <!-- list break -->
 
@@ -30,6 +31,7 @@
 
 - item 2 
 - item 3 
+- item 4 
 
 <!-- list break -->
 
@@ -37,6 +39,86 @@
 - item 2 
 
 - item 3 
+- item 4 
+
+<!-- list break -->
+
+- item 1
+- item 2 
+
+- item 3 
+- item 4 
+
+## List Item Looseness With Children
+
+- item 1
+    - item 1.1
+- item 2 
+    - item 2.1 
+- item 3 
+    - item 3.1 
+- item 4 
+    - item 4.1 
+
+<!-- list break -->
+
+- item 1
+
+    - item 1.1
+- item 2 
+    - item 2.1 
+- item 3 
+    - item 3.1 
+- item 4 
+    - item 4.1 
+
+<!-- list break -->
+
+- item 1
+    - item 1.1
+
+- item 2 
+    - item 2.1 
+- item 3 
+    - item 3.1 
+- item 4 
+    - item 4.1
+    
+!-- list break -->
+
+- item 1
+    - item 1.1
+- item 2 
+
+    - item 2.1 
+- item 3 
+    - item 3.1 
+- item 4 
+    - item 4.1 
+
+<!-- list break -->
+
+- item 1
+    - item 1.1
+- item 2 
+    - item 2.1 
+    
+- item 3 
+    - item 3.1 
+- item 4 
+    - item 4.1 
+
+<!-- list break -->
+
+- item 1
+    - item 1.1
+- item 2 
+    - item 2.1 
+- item 3 
+
+    - item 3.1 
+- item 4 
+    - item 4.1 
 
 <!-- list break -->
 
@@ -46,36 +128,9 @@
     - item 2.1 
 - item 3 
     - item 3.1 
-
-<!-- list break -->
-
-- item 1
-    - item 1.1
-
-- item 2 
-    - item 2.1 
-- item 3 
-    - item 3.1 
-
-<!-- list break -->
-
-- item 1
-    - item 1.1
-- item 2 
-
-    - item 2.1 
-- item 3 
-    - item 3.1 
-
-<!-- list break -->
-
-- item 1
-    - item 1.1
-- item 2 
-    - item 2.1 
-
-- item 3 
-    - item 3.1 
+    
+- item 4 
+    - item 4.1 
 
 <!-- list break -->
 
@@ -84,17 +139,10 @@
 - item 2 
     - item 2.1 
 - item 3 
-
     - item 3.1 
+- item 4 
 
-<!-- list break -->
-
-
-<!-- list break -->
-
-
-<!-- list break -->
-
+    - item 4.1 
 
 <!-- list break -->
 
