@@ -1,3 +1,103 @@
+## Bullet Mismatch Starts a New List
+
+- item
++ item
+* item
+
+## Ordered List Item Sets List Start
+
+2. Non One Start Item
+
+## Mismatched List Item Type Handling
+
+- Bullet List
+1. With Ordered Item
+
+<!-- list break -->
+
+1. Ordered Item
+- With Bullet List
+
+## Item Looseness
+
+- item 1
+- item 2 
+- item 3 
+
+<!-- list break -->
+
+- item 1
+
+- item 2 
+- item 3 
+
+<!-- list break -->
+
+- item 1
+- item 2 
+
+- item 3 
+
+<!-- list break -->
+
+- item 1
+    - item 1.1
+- item 2 
+    - item 2.1 
+- item 3 
+    - item 3.1 
+
+<!-- list break -->
+
+- item 1
+    - item 1.1
+
+- item 2 
+    - item 2.1 
+- item 3 
+    - item 3.1 
+
+<!-- list break -->
+
+- item 1
+    - item 1.1
+- item 2 
+
+    - item 2.1 
+- item 3 
+    - item 3.1 
+
+<!-- list break -->
+
+- item 1
+    - item 1.1
+- item 2 
+    - item 2.1 
+
+- item 3 
+    - item 3.1 
+
+<!-- list break -->
+
+- item 1
+    - item 1.1
+- item 2 
+    - item 2.1 
+- item 3 
+
+    - item 3.1 
+
+<!-- list break -->
+
+
+<!-- list break -->
+
+
+<!-- list break -->
+
+
+<!-- list break -->
+
 ## List Items Interrupt Paragraphs
 
 Bullet item can interrupt paragraph
