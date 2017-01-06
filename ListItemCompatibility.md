@@ -1169,3 +1169,45 @@ Whether block quotes can interrupt item paragraph
 
    > block quoted text
 
+Whether block quotes with leading space can interrupt item paragraphs
+
+```markdown
+* item 1
+   > block quoted text
+```
+
+* item 1
+   > block quoted text
+
+```markdown
+1. item 1
+    > block quoted text
+```
+
+1. item 1
+    > block quoted text
+
+
+Whether block quotes with leading space can interrupt item paragraph
+
+```markdown
+* item 1
+
+   > block quoted text
+```
+
+* item 1
+
+   > block quoted text
+
+```markdown
+1. item 1
+
+    > block quoted text
+```
+
+1. item 1
+
+    > block quoted text
+
+
