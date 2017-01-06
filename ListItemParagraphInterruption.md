@@ -1,5 +1,11 @@
 ## Bullet Mismatch Starts a New List
 
+```markdown
+- item
++ item
+* item
+```
+
 - item
 + item
 * item
@@ -22,155 +28,312 @@
 
 Tests how all tight items are generated
 
+```markdown
 - item 1
-- item 2 
-- item 3 
-- item 4 
+- item 2
+- item 3
+- item 4
+```
+
+- item 1
+- item 2
+- item 3
+- item 4
 
 Test to see how trailing blank after item determines looseness
 
+```markdown
 - item 1
 
-- item 2 
-- item 3 
-- item 4 
+- item 2
+- item 3
+- item 4
+```
+
+- item 1
+
+- item 2
+- item 3
+- item 4
 
 <!-- list break -->
 
+```markdown
 - item 1
-- item 2 
+- item 2
 
-- item 3 
-- item 4 
+- item 3
+- item 4
+```
+
+- item 1
+- item 2
+
+- item 3
+- item 4
 
 <!-- list break -->
 
+```markdown
 - item 1
-- item 2 
-- item 3 
+- item 2
+- item 3
 
-- item 4 
+- item 4
+```
+
+- item 1
+- item 2
+- item 3
+
+- item 4
 
 Test looseness with child items
 
+```markdown
 - item 1
     - item 1.1
-- item 2 
-    - item 2.1 
-- item 3 
-    - item 3.1 
-- item 4 
-    - item 4.1 
-
-<!-- list break -->
-
-- item 1
-
-    - item 1.1
-- item 2 
-    - item 2.1 
-- item 3 
-    - item 3.1 
-- item 4 
-    - item 4.1 
-
-<!-- list break -->
+- item 2
+    - item 2.1
+- item 3
+    - item 3.1
+- item 4
+    - item 4.1
+```
 
 - item 1
     - item 1.1
+- item 2
+    - item 2.1
+- item 3
+    - item 3.1
+- item 4
+    - item 4.1
 
-- item 2 
-    - item 2.1 
-- item 3 
-    - item 3.1 
-- item 4 
-    - item 4.1 
+```markdown
+- item 1
 
-<!-- list break -->
+    - item 1.1
+- item 2
+    - item 2.1
+- item 3
+    - item 3.1
+- item 4
+    - item 4.1
+```
+
+- item 1
+
+    - item 1.1
+- item 2
+    - item 2.1
+- item 3
+    - item 3.1
+- item 4
+    - item 4.1
+
+```markdown
+- item 1
+    - item 1.1
+
+- item 2
+    - item 2.1
+- item 3
+    - item 3.1
+- item 4
+    - item 4.1
+```
 
 - item 1
     - item 1.1
-- item 2 
 
-    - item 2.1 
-- item 3 
-    - item 3.1 
-- item 4 
-    - item 4.1 
+- item 2
+    - item 2.1
+- item 3
+    - item 3.1
+- item 4
+    - item 4.1
 
-<!-- list break -->
+```markdown
+- item 1
+    - item 1.1
+- item 2
+
+    - item 2.1
+- item 3
+    - item 3.1
+- item 4
+    - item 4.1
+```
 
 - item 1
     - item 1.1
-- item 2 
-    - item 2.1 
+- item 2
 
-- item 3 
-    - item 3.1 
-- item 4 
-    - item 4.1 
+    - item 2.1
+- item 3
+    - item 3.1
+- item 4
+    - item 4.1
 
-<!-- list break -->
+```markdown
+- item 1
+    - item 1.1
+- item 2
+    - item 2.1
+
+- item 3
+    - item 3.1
+- item 4
+    - item 4.1
+```
 
 - item 1
     - item 1.1
-- item 2 
-    - item 2.1 
-- item 3 
+- item 2
+    - item 2.1
 
-    - item 3.1 
-- item 4 
-    - item 4.1 
+- item 3
+    - item 3.1
+- item 4
+    - item 4.1
 
-<!-- list break -->
+```markdown
+- item 1
+    - item 1.1
+- item 2
+    - item 2.1
+- item 3
+
+    - item 3.1
+- item 4
+    - item 4.1
+```
 
 - item 1
     - item 1.1
-- item 2 
-    - item 2.1 
-- item 3 
-    - item 3.1 
+- item 2
+    - item 2.1
+- item 3
 
-- item 4 
-    - item 4.1 
+    - item 3.1
+- item 4
+    - item 4.1
 
-<!-- list break -->
+```markdown
+- item 1
+    - item 1.1
+- item 2
+    - item 2.1
+- item 3
+    - item 3.1
+
+- item 4
+    - item 4.1
+```
 
 - item 1
     - item 1.1
-- item 2 
-    - item 2.1 
-- item 3 
-    - item 3.1 
-- item 4 
+- item 2
+    - item 2.1
+- item 3
+    - item 3.1
 
-    - item 4.1 
+- item 4
+    - item 4.1
+
+```markdown
+- item 1
+    - item 1.1
+- item 2
+    - item 2.1
+- item 3
+    - item 3.1
+- item 4
+
+    - item 4.1
+```
+
+- item 1
+    - item 1.1
+- item 2
+    - item 2.1
+- item 3
+    - item 3.1
+- item 4
+
+    - item 4.1
 
 ## List Items Interrupt Paragraphs
+
+```markdown
+Bullet item can interrupt paragraph
+* item
+```
 
 Bullet item can interrupt paragraph
 * item
 
-Empty bullet item with space can interrupt paragraph 
+```markdown
+Empty bullet item with space can interrupt paragraph
 * 
+```
+
+Empty bullet item with space can interrupt paragraph
+* 
+
+```markdown
+Empty bullet item without space can interrupt paragraph
+*
+```
 
 Empty bullet item without space can interrupt paragraph
 *
 
+```markdown
 Numbered one item can interrupt paragraph
 1. one item
+```
+
+Numbered one item can interrupt paragraph
+1. one item
+
+```markdown
+Empty Numbered one item with space can interrupt paragraph
+1. 
+```
 
 Empty Numbered one item with space can interrupt paragraph
 1. 
 
+```markdown
 Empty Numbered one item without space can interrupt paragraph
 1.
+```
+
+Empty Numbered one item without space can interrupt paragraph
+1.
+
+```markdown
+Numbered non-one item can interrupt paragraph
+2. non-one item
+```
 
 Numbered non-one item can interrupt paragraph
 2. non-one item
 
+```markdown
 Empty Numbered non-one item with space can interrupt paragraph
 2. 
+```
+
+Empty Numbered non-one item with space can interrupt paragraph
+2. 
+
+```markdown
+Empty Numbered non-one item without space can interrupt paragraph
+2.
+```
 
 Empty Numbered non-one item without space can interrupt paragraph
 2.
@@ -178,90 +341,148 @@ Empty Numbered non-one item without space can interrupt paragraph
 
 ## List Items Interrupt Bullet Item Paragraphs
 
+```markdown
+* Bullet item can interrupt paragraph of a bullet list item
+* item
+```
+
 * Bullet item can interrupt paragraph of a bullet list item
 * item
 
-<!--List Break-->
+```markdown
+* Empty bullet item with space can interrupt paragraph of a bullet list item
+* 
+```
 
 * Empty bullet item with space can interrupt paragraph of a bullet list item
 * 
 
-<!--List Break-->
+```markdown
+* Empty bullet item without space can interrupt paragraph of a bullet list item
+*
+```
 
 * Empty bullet item without space can interrupt paragraph of a bullet list item
 *
 
-<!--List Break-->
+```markdown
+* Numbered one item can interrupt paragraph of a bullet list item
+1. one item
+```
 
 * Numbered one item can interrupt paragraph of a bullet list item
 1. one item
 
-<!--List Break-->
+```markdown
+* Empty Numbered one item with space can interrupt paragraph of a bullet list item
+1. 
+```
 
 * Empty Numbered one item with space can interrupt paragraph of a bullet list item
 1. 
 
-<!--List Break-->
+```markdown
+* Empty Numbered one item without space can interrupt paragraph of a bullet list item
+1.
+```
 
 * Empty Numbered one item without space can interrupt paragraph of a bullet list item
 1.
 
-<!--List Break-->
+```markdown
+* Numbered non-one item can interrupt paragraph of a bullet list item
+2. non-one item
+```
 
 * Numbered non-one item can interrupt paragraph of a bullet list item
 2. non-one item
 
-<!--List Break-->
+```markdown
+* Empty Numbered non-one item with space can interrupt paragraph of a bullet list item
+2. 
+```
 
 * Empty Numbered non-one item with space can interrupt paragraph of a bullet list item
 2. 
 
-<!--List Break-->
+```markdown
+* Empty Numbered non-one item without space can interrupt paragraph of a bullet list item
+2.
+```
 
 * Empty Numbered non-one item without space can interrupt paragraph of a bullet list item
 2.
 
 Test to see which list items can interrupt another numbered list item's paragraphs
 
+```markdown
+1. Bullet item can interrupt paragraph of a numbered list item
+* item
+```
+
 1. Bullet item can interrupt paragraph of a numbered list item
 * item
 
-<!--List Break-->
+```markdown
+1. Empty bullet item with space can interrupt paragraph of a numbered list item
+* 
+```
 
 1. Empty bullet item with space can interrupt paragraph of a numbered list item
 * 
 
-<!--List Break-->
+```markdown
+1. Empty bullet item without space can interrupt paragraph of a numbered list item
+*
+```
 
 1. Empty bullet item without space can interrupt paragraph of a numbered list item
 *
 
-<!--List Break-->
+```markdown
+1. Numbered one item can interrupt paragraph of a numbered list item
+1. one item
+```
 
 1. Numbered one item can interrupt paragraph of a numbered list item
 1. one item
 
-<!--List Break-->
+```markdown
+1. Empty Numbered one item with space can interrupt paragraph of a numbered list item
+1. 
+```
 
-1. Empty Numbered one item with space can interrupt paragraph of a numbered list item 
+1. Empty Numbered one item with space can interrupt paragraph of a numbered list item
 1. 
 
-<!--List Break-->
+```markdown
+1. Empty Numbered one item without space can interrupt paragraph of a numbered list item
+1.
+```
 
-1. Empty Numbered one item without space can interrupt paragraph of a numbered list item 
+1. Empty Numbered one item without space can interrupt paragraph of a numbered list item
 1.
 
-<!--List Break-->
+```markdown
+1. Numbered non-one item can interrupt paragraph of a numbered list item
+2. non-one item
+```
 
 1. Numbered non-one item can interrupt paragraph of a numbered list item
 2. non-one item
 
-<!--List Break-->
+```markdown
+1. Empty Numbered non-one item with space can interrupt paragraph of a numbered list item
+2. 
+```
 
 1. Empty Numbered non-one item with space can interrupt paragraph of a numbered list item
 2. 
 
-<!--List Break-->
+```markdown
+1. Empty Numbered non-one item without space can interrupt paragraph of a numbered list item
+2.
+```
 
 1. Empty Numbered non-one item without space can interrupt paragraph of a numbered list item
 2.
@@ -269,6 +490,19 @@ Test to see which list items can interrupt another numbered list item's paragrap
 ## List Item Indent Handling
 
 Test how list indentation is determined
+
+```markdown
+* item 1
+ * item 2
+  * item 3
+   * item 4
+    * item 5
+     * item 6
+      * item 7
+       * item 8
+        * item 9
+         * item 10
+```
 
 * item 1
  * item 2
@@ -283,6 +517,19 @@ Test how list indentation is determined
 
 Test if list indentation is determined on marker indent or content indent. If this and above
 test differ in list structure, then content indent is used. Otherwise, marker indent.
+
+```markdown
+*  item 1
+ *  item 2
+  *  item 3
+   *  item 4
+    *  item 5
+     *  item 6
+      *  item 7
+       *  item 8
+        *  item 9
+         *  item 10
+```
 
 *  item 1
  *  item 2
@@ -299,28 +546,63 @@ Test to see if having a blank line in list item makes a difference on indent col
 If this list structure is the same as the one without blank lines, then had blank line status
 does not affect indentation level.
 
+```markdown
 * item 1
 
  * item 2
- 
+
   * item 3
-  
+
    * item 4
-   
+
     * item 5
-    
+
      * item 6
-     
+
       * item 7
-      
+
        * item 8
-       
+
         * item 9
-        
+
+         * item 10
+```
+
+* item 1
+
+ * item 2
+
+  * item 3
+
+   * item 4
+
+    * item 5
+
+     * item 6
+
+      * item 7
+
+       * item 8
+
+        * item 9
+
          * item 10
 
 Test to see if first item indent affect list indentation processing, if structure differs from
 same list but without leading first item space then yes.
+
+ ```markdown
+ * item 1
+  * item 2
+   * item 3
+    * item 4
+     * item 5
+      * item 6
+       * item 7
+        * item 8
+         * item 9
+          * item 10
+ ```
 
  * item 1
   * item 2
@@ -335,13 +617,29 @@ same list but without leading first item space then yes.
 
 Test where lazy continuation affects list item processing.
 
+```markdown
+* item 1
+       * item 2
+* item 3
+        * item 4
+```
+
 * item 1
        * item 2
 * item 3
         * item 4
 
 Test if it is `first first list` indent processing, or first direct parent list processing that
-affects sub-list indentation. 
+affects sub-list indentation.
+
+```markdown
+* item 1
+ * item 2
+  * item 4
+    > * item 3
+    >  * item 4
+    >   * item 5
+```
 
 * item 1
  * item 2
@@ -350,7 +648,14 @@ affects sub-list indentation.
     >  * item 4
     >   * item 5
 
-<!-- list break -->
+```markdown
+* item 1
+ * item 2
+  * item 4
+     > * item 3
+     >  * item 4
+     >   * item 5
+```
 
 * item 1
  * item 2
@@ -362,13 +667,31 @@ affects sub-list indentation.
 Test shows where the boundary switch to indented code occurs. First paragraph is a paragraph,
 the second is indented code.
 
+```markdown
 -   test
     - sub item
 
          sub item child para
 
           indented code
-          
+
+---
+
+1.  test
+    1. sub item
+
+          sub item child para
+
+           indented code
+```
+
+-   test
+    - sub item
+
+         sub item child para
+
+          indented code
+
 ---
 
 1.  test
@@ -378,21 +701,49 @@ the second is indented code.
 
            indented code
 
-<!-- list break -->
-
+```markdown
 -   test
 
        item child para
 
         indented code
-          
+
 -   test
     - sub item
 
            sub item child para
 
             sub item indented code
-          
+
+---
+
+1.  test
+
+       item child para
+
+        item indented code
+
+1.  test
+    1. sub item
+
+           sub item child para
+
+            sub item indented code
+```
+
+-   test
+
+       item child para
+
+        indented code
+
+-   test
+    - sub item
+
+           sub item child para
+
+            sub item indented code
+
 ---
 
 1.  test
@@ -411,80 +762,162 @@ the second is indented code.
 More extensive test to show where the boundary switch to indented code occurs. Sub-items first
 paragraph is a paragraph, the second is indented code
 
+```markdown
 * item 1
-    
+
   item para 1
-  
+
    item para 2
-   
+
     item para 3
-    
+
      item para 4
-     
+
       item para 5
       
        item para 6
        
         item para 7
-        
+
  * item 2
-    
+
    item para 1
-   
+
     item para 2
-    
+
      item para 3
-     
+
       item para 4
-      
+
        item para 5
        
         item para 6
         
          item para 7
-        
+
   * item 3
-    
+
     item para 1
-    
+
      item para 2
-     
+
       item para 3
-      
+
        item para 4
-       
+
         item para 5
         
          item para 6
          
           item para 7
-        
+
    * item 4
-    
+
      item para 1
-     
+
       item para 2
-      
+
        item para 3
-       
+
         item para 4
-        
+
          item para 5
          
           item para 6
           
            item para 7
-        
+
     * item 5
-    
+
       item para 1
-  
+
        item para 2
-   
+
         item para 3
-    
+
          item para 4
-     
+
+          item para 5
+      
+           item para 6
+       
+            item para 7
+```
+
+* item 1
+
+  item para 1
+
+   item para 2
+
+    item para 3
+
+     item para 4
+
+      item para 5
+      
+       item para 6
+       
+        item para 7
+
+ * item 2
+
+   item para 1
+
+    item para 2
+
+     item para 3
+
+      item para 4
+
+       item para 5
+       
+        item para 6
+        
+         item para 7
+
+  * item 3
+
+    item para 1
+
+     item para 2
+
+      item para 3
+
+       item para 4
+
+        item para 5
+        
+         item para 6
+         
+          item para 7
+
+   * item 4
+
+     item para 1
+
+      item para 2
+
+       item para 3
+
+        item para 4
+
+         item para 5
+         
+          item para 6
+          
+           item para 7
+
+    * item 5
+
+      item para 1
+
+       item para 2
+
+        item para 3
+
+         item para 4
+
           item para 5
       
            item para 6
@@ -497,11 +930,47 @@ the previous list item. There was one that did it that way, GitHub comments if I
 right, but now they switched to commonmark list handling with mods. Guess it is now GFC--GitHub
 Flavoured Commonmark.
 
+```markdown
+*  item 1
+   * item 2
+  * item 3
+```
+
 *  item 1
    * item 2
   * item 3
 
 Test how headings in list items are handled, leading space allowed or not
+
+```markdown
+* item 1
+
+  # Heading 1
+
+   ## Heading 2
+
+    ### Heading 3
+
+     #### Heading 4
+
+      ##### Heading 5
+
+       ###### Heading 6
+
+  * item 2
+
+    # Heading 1
+
+     ## Heading 2
+
+      ### Heading 3
+
+       #### Heading 3
+
+        ##### Heading 5
+      
+         ###### Heading 6
+```
 
 * item 1
 
@@ -520,13 +989,13 @@ Test how headings in list items are handled, leading space allowed or not
   * item 2
 
     # Heading 1
-    
+
      ## Heading 2
-    
+
       ### Heading 3
-    
+
        #### Heading 3
-    
+
         ##### Heading 5
       
          ###### Heading 6
