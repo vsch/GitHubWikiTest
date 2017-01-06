@@ -1113,6 +1113,14 @@ lazy continuation
 
 another paragraph
 
+Whether leading spaces are allowed before block quote marker
+
+```
+ > block quote paragraph text
+```
+
+ > block quote paragraph text
+
 Whether block quotes can interrupt item paragraph
 
 ```markdown
