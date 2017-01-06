@@ -1105,10 +1105,13 @@ Whether block quotes continue to a blank line
 > block quoted text
 lazy continuation
 
+another paragraph
 ```
 
 > block quoted text
 lazy continuation
+
+another paragraph
 
 Whether block quotes can interrupt item paragraph
 
