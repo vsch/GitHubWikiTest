@@ -635,34 +635,34 @@ affects sub-list indentation.
 ```markdown
 * item 1
  * item 2
-  * item 4
-    > * item 3
-    >  * item 4
-    >   * item 5
+  * item 3
+    > * item 4
+    >  * item 5
+    >   * item 6
 ```
 
 * item 1
  * item 2
-  * item 4
-    > * item 3
-    >  * item 4
-    >   * item 5
+  * item 3
+    > * item 4
+    >  * item 5
+    >   * item 6
 
 ```markdown
 * item 1
  * item 2
-  * item 4
-     > * item 3
-     >  * item 4
-     >   * item 5
+  * item 3
+     > * item 4
+     >  * item 5
+     >   * item 6
 ```
 
 * item 1
  * item 2
-  * item 4
-     > * item 3
-     >  * item 4
-     >   * item 5
+  * item 3
+     > * item 4
+     >  * item 5
+     >   * item 6
 
 Test shows where the boundary switch to indented code occurs. First paragraph is a paragraph,
 the second is indented code.
