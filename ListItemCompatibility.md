@@ -1057,3 +1057,56 @@ Test how headings in list items are handled, leading space allowed or not
 *       item 7
 *        item 8
 *         item 9
+
+## Block quote parsing
+
+Whether blank lines are required to start a block quote
+
+```markdown
+paragraph text
+> block quoted text
+```
+
+paragraph text
+> block quoted text
+
+
+Whether blank lines are required to start a block quote
+
+```markdown
+paragraph text
+
+> block quoted text
+
+```
+
+paragraph text
+
+> block quoted text
+
+
+Whether blank lines are ignored and treated as if prefixed with block quote
+
+```markdown
+> block quoted text
+
+> more block quoted text
+
+```
+
+> block quoted text
+
+> more block quoted text
+
+
+Whether block quotes continue to a blank line
+
+```markdown
+> block quoted text
+lazy continuation
+
+```
+
+> block quoted text
+lazy continuation
+
