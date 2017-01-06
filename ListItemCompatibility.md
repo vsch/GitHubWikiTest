@@ -1001,7 +1001,7 @@ Test how headings in list items are handled, leading space allowed or not
 
       ### Heading 3
 
-       #### Heading 3
+       #### Heading 4
 
         ##### Heading 5
       
@@ -1030,7 +1030,7 @@ Test how headings in list items are handled, leading space allowed or not
 
       ### Heading 3
 
-       #### Heading 3
+       #### Heading 4
 
         ##### Heading 5
       
