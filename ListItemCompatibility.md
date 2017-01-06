@@ -1036,3 +1036,24 @@ Test how headings in list items are handled, leading space allowed or not
       
          ###### Heading 6
 
+```markdown
+* item 1
+*  item 2
+*   item 3
+*    item 4
+*     item 5
+*      item 6
+*       item 7
+*        item 8
+*         item 9
+```
+
+* item 1
+*  item 2
+*   item 3
+*    item 4
+*     item 5
+*      item 6
+*       item 7
+*        item 8
+*         item 9
