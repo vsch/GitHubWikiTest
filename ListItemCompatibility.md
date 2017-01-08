@@ -1007,6 +1007,26 @@ Test how headings in list items are handled, leading space allowed or not
 ```markdown
 * item 1
   # Heading 1
+  
+  * item 2
+    # Heading 1
+    
+   * item 3
+     # Heading 1
+```
+
+* item 1
+  # Heading 1
+
+  * item 2
+    # Heading 1
+
+   * item 3
+     # Heading 1
+
+```markdown
+* item 1
+  # Heading 1
    ## Heading 2
     ### Heading 3
      #### Heading 4
