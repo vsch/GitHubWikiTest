@@ -994,6 +994,14 @@ Test how headings in list items are handled, leading space allowed or not
        #### Heading 4
         ##### Heading 5
          ###### Heading 6
+
+   * item 3
+     # Heading 1
+      ## Heading 2
+       ### Heading 3
+        #### Heading 4
+         ##### Heading 5
+          ###### Heading 6
 ```
 
 * item 1
@@ -1011,6 +1019,14 @@ Test how headings in list items are handled, leading space allowed or not
        #### Heading 4
         ##### Heading 5
          ###### Heading 6
+
+   * item 3
+     # Heading 1
+      ## Heading 2
+       ### Heading 3
+        #### Heading 4
+         ##### Heading 5
+          ###### Heading 6
 
 Test how headings in list items are handled, leading space allowed or not
 
