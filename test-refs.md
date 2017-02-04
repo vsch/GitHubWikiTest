@@ -8,6 +8,12 @@
 
 # Task Item with Refence bug
 
+The following is:
+
+    - [ ] task item
+    - [ ] [wiki] bug, task item followed by reference is interpreted as a reference with a space for text
+    - [ ] &nbsp;[wiki] adding an `&nbsp;` is a workaround
+
 - [ ] task item
 - [ ] [wiki] bug, task item followed by reference is interpreted as a reference with a space for text
 - [ ] &nbsp;[wiki] adding an `&nbsp;` is a workaround
