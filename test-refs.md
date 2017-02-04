@@ -5,3 +5,9 @@
 
 [Wiki]: ../../wiki
 [GitHub wiki in IntelliJ IDE]: ../../wiki/Adding-GitHub-Wiki-to-IntelliJ-Project
+
+# Task Item with Refence bug
+
+- [ ] task item
+- [ ] [wiki] bug, task item followed by reference is interpreted as a reference with a space for text
+
