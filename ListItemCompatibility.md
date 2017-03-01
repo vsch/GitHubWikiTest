@@ -1598,5 +1598,14 @@ Test to make sure content indented deeply nested lists process correctly
                         1. item 9
 
 
+<!-- -->
 
+* list item
+```
+# test
+# test 2
+
+# some other comment
+
+```
 <!-- @formatter:on -->
