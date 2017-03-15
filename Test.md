@@ -18,3 +18,11 @@ Foo for:
 -----------------
 
 The foo has barred.
+
+
+[space in link](space in link.html)
+
+<space in link.html>
+
+
+
