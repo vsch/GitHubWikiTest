@@ -24,5 +24,9 @@ The foo has barred.
 
 <http://example.com/space in link.html>
 
+[no space in link](http://example.com/space%20in%20link.html)
+
+<http://example.com/space%20in%20link.html>
+
 
 
