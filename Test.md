@@ -20,9 +20,9 @@ Foo for:
 The foo has barred.
 
 
-[space in link](space in link.html)
+[space in link](http://example.com/space in link.html)
 
-<space in link.html>
+<http://example.com/space in link.html>
 
 
 
